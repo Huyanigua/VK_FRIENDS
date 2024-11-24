@@ -3,7 +3,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 
 # Загрузка данных из файла
-with open('data.json', 'r') as f:
+with open('friends_data.json', 'r') as f:
     data = json.load(f)
 
 G = nx.Graph()
